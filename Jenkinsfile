@@ -3,20 +3,20 @@ pipeline {
 
     stages {
         stage("build") {
-            step {
+            steps {
                 echo "Building the alok app...."
             }
         }    
 
         stage("testing") {
-            step {
+            steps {
                 echo "Testing alok app....."
             }
             echo "Testing alok app....."
         }
 
         stage("deploying") {
-            step {
+            steps {
                 echo "Deploying alok app..."
             }
         }
