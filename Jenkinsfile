@@ -12,7 +12,6 @@ pipeline {
             steps {
                 echo "Testing alok app....."
             }
-            echo "Testing alok app....."
         }
 
         stage("deploy") {
