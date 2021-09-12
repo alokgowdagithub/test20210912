@@ -8,14 +8,14 @@ pipeline {
             }
         }    
 
-        stage("testing") {
+        stage("test") {
             steps {
                 echo "Testing alok app....."
             }
             echo "Testing alok app....."
         }
 
-        stage("deploying") {
+        stage("deploy") {
             steps {
                 echo "Deploying alok app..."
             }
