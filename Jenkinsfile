@@ -1,7 +1,7 @@
 pipeline {
     agent any 
 
-    Stages {
+    stages {
         stage("build") {
             step {
                 echo "Building the alok app...."
